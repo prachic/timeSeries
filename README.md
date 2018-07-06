@@ -1,0 +1,2 @@
+# timeSeries
+First Scala Assignment

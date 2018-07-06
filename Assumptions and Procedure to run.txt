@@ -1,0 +1,19 @@
+Assumption:
+1) Accepts file path as argument
+2) Time window = 60sec
+3) Input file will have data in space separated format (minimum 2 columns)
+4) Time is in timestamp format
+5) PriceRatio is a floating point value
+6) Rounding rolling sum up to 5 decimal places
+
+Procedure:
+1) Unzip the attachment
+2) It has a Scala project, input, and corresponding output file
+3) Import the Scala project as Existing Maven Project in Scala IDE / Eclipse
+4) Build the project (Set the jdk and scala library)
+5) Run TestTimeSeries as Scala application, 
+    Set Run Configurations:
+    a) It accepts the physical file path as argument
+    e.g. D:\\Projects\\Scala\\resources\\TimeSeries.txt
+    b) Set Main class - test.TestTimeSeries    
+6) Verify the results on Console
